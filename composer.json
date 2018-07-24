@@ -1,0 +1,27 @@
+{
+    "name": "guillaumemolter/acf-as-library",
+    "description": "Easy and clean config of Advanced Custom Fields as a composer library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [ {
+        "name": "Guillaume Molter",
+        "email": "guillaume.molter@gmail.com"
+    } ],
+    "keywords": [
+        "wordpress", "composer", "wp", "plugin", "acf", "pro"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "GuillaumeMolter\\ACFAsLibrary\\": "src/ACFAsLibrary" 
+        }
+    },
+    "extra": {
+        "class": "GuillaumeMolter\\ACFAsLibrary\\ACF_Lib"
+    }
+}
