@@ -4,7 +4,7 @@ Easy and clean config of the Advanced Custom Fields WordPress plugin to load it 
 Simplify the process described here: https://www.advancedcustomfields.com/resources/including-acf-in-a-plugin-theme/
 
 ## How to use:
-1. Add ACF to your plugin or theme using composer using [PhilippBaschke/acf-pro-installer](https://github.com/PhilippBaschke/acf-pro-installer)
+1. Make sure you have an environment varible with you ACF licence key `export ACF_PRO_KEY=XXXXXXX`
 2. Then add this library to your plugin or theme `composer require guillaumemolter/acf-as-library`
 3. Finally inside of your plugin or theme:
 
